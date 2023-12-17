@@ -19,13 +19,14 @@ const Home = () => {
   return (
     <Layout>
       <div className="flex flex-col justify-center items-center gap-4 w-screen h-screen">
-        <h1 className="text-2xl font-bold">Quote Generator</h1>
-        <div className="flex flex-col justify-normal items-start gap-3 shadow-md shadow-black rounded-lg p-6 m-6 bg-slate-300/20 w-[700px] h-48">
-          {console.log("id: ", endpoints[0]?._id)}
-          <p>{endpoints[0]?.content}</p>
-          <p>{endpoints[0]?.lenght}</p>
-          <p>{endpoints[0]?.author}</p>
-          <p>{endpoints[0]?.tags}</p>
+        <h1 className="text-2xl font-bold text-white/80">Quote Generator</h1>
+        <div className="flex flex-col justify-around items-start gap-6 shadow-md shadow-[#666666] rounded-lg p-6 m-6 bg-[#333333] text-white/90  w-[700px] h-48">
+          <p className="text-xl font-semibold text-[#999999">
+            {endpoints[0]?.content}
+          </p>
+          <p className="text-md font-normal text-[#999999]">
+            - {endpoints[0]?.author} -
+          </p>
         </div>
       </div>
     </Layout>

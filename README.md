@@ -1,8 +1,8 @@
 <div id="top"></div>
 
-# Quote Generator
+# Random Quote Generator
 
-Simple quote generator with React, Tailwind CSS and Vite.js.
+Simple random quote generator with React, Tailwind CSS and Vite.js.
 
 <!-- ABOUT THE PROJECT -->
 
@@ -10,7 +10,21 @@ Simple quote generator with React, Tailwind CSS and Vite.js.
 
 A Quote generator React app that consumes the [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes) to display random quotes. This project was built with React, Tailwind CSS and Vite.js.
 
-![](./image.png)
+### Project
+
+#### [Demo](https://quote.jpdiaz.dev/)
+
+<details open>
+<summary>Desktop View 🖥️</summary>
+<img src="./image.png" width="" />
+<br>
+</details>
+
+<details open>
+<summary>Mobile view📱</summary>
+<img src="./mobile.png" width="250" />
+<br>
+</details>
 
 <!-- OTHER PROJECTS -->
 
@@ -50,5 +64,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments 📚
 
 Resources list that I find helpful and would like to give credit to.
+
+- [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite.js](https://vitejs.dev/)
+- [React.js](https://reactjs.org/)
 
 <p align="right">(<a href="#top">👆 Top 👆</a>)</p>

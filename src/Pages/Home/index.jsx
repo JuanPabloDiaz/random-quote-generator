@@ -5,15 +5,28 @@ const Home = () => {
   // UseState is a hook to add the info from the API to the state
   const [endpoints, setEndpoints] = useState([]); // State to store the data from the dummy API. It's an empty array because the data is an array of objects
 
-  // UseEffect is a hook to fetch the data from the API
-  useEffect(() => {
-    // fetch("https://api.quotable.io/random")  <--- deprecated
+  // // UseEffect is a hook to fetch the data from the API
+  // useEffect(() => {
+  //   // fetch("https://api.quotable.io/random")  <--- deprecated
+  //   fetch("https://api.quotable.io/quotes/random")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       console.log("Data from API: ", json); // Log the data
+  //       setEndpoints(json); // Add the data to the state (setEndpoints)
+  //     });
+  // }, []);
+
+  const fetchQuote = () => {
     fetch("https://api.quotable.io/quotes/random")
       .then((response) => response.json())
       .then((json) => {
-        console.log("Data from API: ", json); // Log the data
-        setEndpoints(json); // Add the data to the state (setEndpoints)
+        console.log("Data from API: ", json);
+        setEndpoints(json);
       });
+  };
+
+  useEffect(() => {
+    fetchQuote();
   }, []);
 
   return (
@@ -30,6 +43,12 @@ const Home = () => {
             - {endpoints[0]?.author} -
           </p>
         </div>
+        <button
+          onClick={fetchQuote}
+          className="bg-[#666666] hover:bg-[#999999] text-white font-bold py-2 px-4 rounded transition duration-300"
+        >
+          New Quote
+        </button>
       </div>
     </Layout>
   );

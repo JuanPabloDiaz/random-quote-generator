@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react"; // Hooks to consume the API
-// import Card from "../../Components/Card";
 import Layout from "../../Components/Layout";
-// import ProductDetail from "../../Components/ProductDetail";
 
 const Home = () => {
   // UseState is a hook to add the info from the API to the state
@@ -9,7 +7,7 @@ const Home = () => {
 
   // UseEffect is a hook to fetch the data from the API
   useEffect(() => {
-    // fetch("https://api.quotable.io/random")
+    // fetch("https://api.quotable.io/random")  <--- deprecated
     fetch("https://api.quotable.io/quotes/random")
       .then((response) => response.json())
       .then((json) => {

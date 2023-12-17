@@ -23,7 +23,7 @@ const Home = () => {
           Quote Generator
         </h1>
         <div className="flex flex-col justify-around items-start gap-6 shadow-md shadow-[#666666] rounded-lg p-6 m-6 bg-[#333333] text-white/90 w-full sm:w-[500px] md:w-[600px] lg:w-[700px] h-48">
-          <p className="text-xl sm:text-xl md:text-2xl font-semibold text-[#999999]">
+          <p className="text-xl sm:text-xl md:text-2xl font-semibold text-[#F8F9FA]">
             {endpoints[0]?.content}
           </p>
           <p className="text-sm sm:text-md md:text-lg font-normal text-[#999999]">

@@ -56,7 +56,7 @@ I welcome contributions to the [random quote generator](https://quote.jpdiaz.dev
 
 [random quote generator](https://quote.jpdiaz.dev) is licensed under the MIT License.
 
-We hope you enjoy using Jp·Shop!
+We hope you enjoy using the quote generator!
 
 <!-- OTHER PROJECTS -->
 

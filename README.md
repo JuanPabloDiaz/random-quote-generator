@@ -17,11 +17,15 @@ A Quote generator React app that consumes the [Quotable API](https://github.com/
 
 ### Desktop View 🖥️
 
-<img src="./image.png" width="" />
+<img src="./src/assets/images/image.png" width="" />
+
+### iPad view📱
+
+<img src="./src/assets/images/ipad.png" width="250" />
 
 ### Mobile view📱
 
-<img src="./mobile.png" width="250" />
+<img src="./src/assets/image/ipad.png" width="250" />
 
 ## Features:
 

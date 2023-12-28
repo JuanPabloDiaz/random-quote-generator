@@ -6,7 +6,7 @@ This simple project is a responsive web application that allows users to generat
 
 ## Description 💡
 
-A Quote generator React app that consumes the [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes) to display random quotes.
+A Quote generator React app that consumes the [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes) to display random quotes. This project was built as part of the **[freeCodeCamp Front End Libraries Certification](https://www.freecodecamp.org/certification/1diazdev/front-end-development-libraries)**.
 
 <div align="center">
 

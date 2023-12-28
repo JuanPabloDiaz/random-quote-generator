@@ -52,6 +52,19 @@ Here's a closer look at the tech stack:
 
 To get started with [random-quote-generator](https://quote.jpdiaz.dev), simply clone the repository and follow the setup instructions. You'll be up and running in no time!
 
+### Setup 📋
+
+1. Clone the repo
+2. Install dependencies
+   ```sh
+   npm install
+   ```
+3. Start the development server
+   ```sh
+   npm run dev
+   ```
+4. Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
+
 ## Contribution 🤝
 
 I welcome contributions to the [random quote generator](https://quote.jpdiaz.dev)! Feel free to fork the repository and submit pull requests with your improvements.

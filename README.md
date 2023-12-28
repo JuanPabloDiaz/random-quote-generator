@@ -25,7 +25,7 @@ A Quote generator React app that consumes the [Quotable API](https://github.com/
 
 ### Mobile view📱
 
-<img src="./src/assets/image/ipad.png" width="250" />
+<img src="./src/assets/images/mobile.png" width="250" />
 
 ## Features:
 

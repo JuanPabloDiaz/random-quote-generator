@@ -31,29 +31,29 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col justify-center items-center gap-4 w-screen h-screen p-2">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white/80">
+      <div className="flex h-screen w-screen flex-col items-center justify-center gap-4 p-2">
+        <h1 className="text-2xl font-bold text-white/80 sm:text-3xl md:text-4xl">
           Quote Generator
         </h1>
-        <div className="flex flex-col justify-around items-start gap-6 shadow-md shadow-[#666666] rounded-lg p-6 m-6 bg-[#333333] text-white/90 w-full sm:w-[500px] md:w-[600px] lg:w-[700px] min-h-[180px]">
-          <p className="text-xl sm:text-xl md:text-2xl font-semibold text-[#F8F9FA]">
+        <div className="m-6 flex min-h-[180px] w-full flex-col items-start justify-around gap-6 rounded-lg bg-[#333333] p-6 text-white/90 shadow-md shadow-[#666666] sm:w-[500px] md:w-[600px] lg:w-[700px]">
+          <p className="text-xl font-semibold text-[#F8F9FA] sm:text-xl md:text-2xl">
             {endpoints[0]?.content}
           </p>
-          <p className="text-sm sm:text-md md:text-lg font-normal text-[#999999]">
+          <p className="sm:text-md text-sm font-normal text-[#999999] md:text-lg">
             - {endpoints[0]?.author} -
           </p>
         </div>
         <button
           onClick={fetchQuote}
-          className="bg-[#666666] hover:bg-[#999999] text-white font-bold py-2 px-4 rounded transition duration-300"
+          className="rounded bg-[#666666] px-4 py-2 font-bold text-white transition duration-300 hover:bg-[#999999]"
         >
           New Quote
         </button>
-        <div className="flex justify-end fixed bottom-10 w-5/6 gap-2">
-          <p className="text-sm sm:text-md md:text-lg font-normal text-[#5f5f5f]">
+        <div className="fixed bottom-10 flex w-5/6 justify-end gap-2">
+          <p className="sm:text-md text-sm font-normal text-[#5f5f5f] md:text-lg">
             Developed by:
           </p>
-          <span className="text-sm sm:text-md md:text-lg font-normal text-[#999999] hover:text-[#F8F9FA] transition duration-300">
+          <span className="sm:text-md text-sm font-normal text-[#999999] transition duration-300 hover:text-[#F8F9FA] md:text-lg">
             <a href="https://jpdiaz.dev/">Juan Diaz</a>
           </span>
         </div>

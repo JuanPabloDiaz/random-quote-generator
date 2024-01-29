@@ -11,7 +11,7 @@ A Quote generator React app that consumes the [Quotable API](https://github.com/
 <div align="center">
 
 [![quote](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://quote.jpdiaz.dev/)
-[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://pr.new/github.com/JuanPabloDiaz/random-quote-generator)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/random-quote-generator)
 
 </div>
 

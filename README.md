@@ -1,42 +1,47 @@
 <div id="top"></div>
 
-# Random Quote Generator
+# 25 + 5 Clock ⏰
 
-This simple project is a responsive web application that allows users to generate endless random quotes with the click of a button.
+This project is a responsive web application that allows users to use a pomodoro timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Thats why is called 25 + 5 clock
 
 ## Description 💡
 
-A Quote generator React app that consumes the [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes) to display random quotes. This project was built as part of the **[freeCodeCamp Front End Libraries Certification](https://www.freecodecamp.org/certification/1diazdev/front-end-development-libraries)**.
+This project is a 25 + 5 clock, which is a time management system that encourages people to work with the time they have—rather than against it. Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros.
+
+This project was built as part of the **[freeCodeCamp Front End Libraries Certification](https://www.freecodecamp.org/certification/1diazdev/front-end-development-libraries)**. The goal was to build a 25 + 5 clock with React.
 
 <div align="center">
 
-[![quote](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://quote.jpdiaz.dev/)
-[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/random-quote-generator)
+[![25 + 5 clock](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://25.jpdiaz.dev/)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://stackblitz.com/github.com/JuanPabloDiaz/25-5_clock)
 
 </div>
 
 ### Desktop View 🖥️
 
-<img src="./src/assets/images/image.png" width="" />
+<img src="./src/assets/images/desktop.png" width="" />
 
 ### iPad view 📱
 
-<img src="./src/assets/images/ipad.png" width="250" />
+<img src="./src/assets/images/ipad.png" width="300" />
 
 ### Mobile view 📱
 
-<img src="./src/assets/images/mobile.png" width="250" />
+<img src="./src/assets/images/phone.png" width="250" />
+
+### Lighthouse Score 🚀
+
+<img src="./src/assets/images/lighthouse.png" />
 
 ## Features:
 
-- Responsive design: [random quote generator](https://quote.jpdiaz.dev) adapts to any screen size, ensuring a consistent and enjoyable experience for all users.
+- Responsive design: [25 + 5 Clock](https://25.jpdiaz.dev) adapts to any screen size, ensuring a consistent and enjoyable experience for all users.
 - Sleek and modern UI: Tailwind CSS provides a beautiful and intuitive user interface.
 - Efficient and performant: Vite.js ensures fast loading times and a smooth experience.
-- API integration.
 
 ### Built With 🔑
 
-Welcome to [random quote generator](https://quote.jpdiaz.dev), a simple random quote generator build with React, Tailwind CSS and Vite.js.
+Welcome to [25 + 5 Clock](https://25.jpdiaz.dev), a simple and intuitive pomodoro timer built with React.js, Vite.js, and Tailwind CSS.
 
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
@@ -45,12 +50,12 @@ Welcome to [random quote generator](https://quote.jpdiaz.dev), a simple random q
 Here's a closer look at the tech stack:
 
 - Front-End: React.js, Vite.js, Tailwind CSS
-- Back-End: API Integration (RESTful)
+- Back-End: N/A
 - Deployment: Vercel
 
 ## Get started 🛠️
 
-To get started with [random-quote-generator](https://quote.jpdiaz.dev), simply clone the repository and follow the setup instructions. You'll be up and running in no time!
+To get started with [25 + 5 Clock](https://25.jpdiaz.dev), simply clone the repository and follow the setup instructions. You'll be up and running in no time!
 
 ### Setup 📋
 
@@ -67,13 +72,13 @@ To get started with [random-quote-generator](https://quote.jpdiaz.dev), simply c
 
 ## Contribution 🤝
 
-I welcome contributions to the [random quote generator](https://quote.jpdiaz.dev)! Feel free to fork the repository and submit pull requests with your improvements.
+I welcome contributions to the [25 + 5 Clock](https://25.jpdiaz.dev)! Feel free to fork the repository and submit pull requests with your improvements.
 
 ## License 📜
 
-[random quote generator](https://quote.jpdiaz.dev) is licensed under the MIT License.
+[25 + 5 Clock](https://25.jpdiaz.dev) is licensed under the MIT License.
 
-I hope you enjoy using the quote generator!
+I hope you enjoy using the 25 + 5 Clock!
 
 <!-- OTHER PROJECTS -->
 
@@ -100,7 +105,6 @@ I hope you enjoy using the quote generator!
 
 Resources list that I find helpful and would like to give credit to.
 
-- [Quotable API](https://github.com/lukePeavey/quotable?tab=readme-ov-file#get-random-quotes)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)

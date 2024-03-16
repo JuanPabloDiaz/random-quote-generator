@@ -19,7 +19,7 @@ This project was built as part of the **[freeCodeCamp Front End Libraries Certif
 
 ### Desktop View 🖥️
 
-<img src="./src/assets/images/desktop.png" width="" />
+<img src="./src/assets/images/image.png" width="" />
 
 ### iPad view 📱
 
@@ -27,7 +27,7 @@ This project was built as part of the **[freeCodeCamp Front End Libraries Certif
 
 ### Mobile view 📱
 
-<img src="./src/assets/images/phone.png" width="250" />
+<img src="./src/assets/images/mobile.png" width="250" />
 
 ### Lighthouse Score 🚀
 

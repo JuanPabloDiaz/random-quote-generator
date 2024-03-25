@@ -72,7 +72,7 @@ To get started with [25 + 5 Clock](https://25.jpdiaz.dev), simply clone the repo
 
 ## Contribution 🤝
 
-I welcome contributions to the [25 + 5 Clock](https://25.jpdiaz.dev)! Feel free to fork the repository and submit pull requests with your improvements.
+All contributions are welcome. Please read the [CONTRIBUTING guidelines](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## License 📜
 

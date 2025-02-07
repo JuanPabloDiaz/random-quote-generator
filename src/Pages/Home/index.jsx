@@ -5,19 +5,9 @@ const Home = () => {
   // UseState is a hook to add the info from the API to the state
   const [endpoints, setEndpoints] = useState([]); // State to store the data from the dummy API. It's an empty array because the data is an array of objects
 
-  // // UseEffect is a hook to fetch the data from the API
-  // useEffect(() => {
-  //   // fetch("https://api.quotable.io/random")  <--- deprecated
-  //   fetch("https://api.quotable.io/quotes/random")
-  //     .then((response) => response.json())
-  //     .then((json) => {
-  //       console.log("Data from API: ", json); // Log the data
-  //       setEndpoints(json); // Add the data to the state (setEndpoints)
-  //     });
-  // }, []);
-
   const fetchQuote = () => {
-    fetch("https://api.quotable.io/quotes/random")
+    // fetch("https://api.quotable.io/quotes/random") <--- deprecated since 2024 (https certificate issue)
+    fetch("https://api.breakingbadquotes.xyz/v1/quotes")
       .then((response) => response.json())
       .then((json) => {
         console.log("Data from API: ", json);
@@ -33,11 +23,11 @@ const Home = () => {
     <Layout>
       <div className="flex h-screen w-screen flex-col items-center justify-center gap-4 p-2">
         <h1 className="text-2xl font-bold text-white/80 sm:text-3xl md:text-4xl">
-          Quote Generator
+          Breaking Bad Quote Generator
         </h1>
         <div className="m-6 flex min-h-[180px] w-full flex-col items-start justify-around gap-6 rounded-lg bg-[#333333] p-6 text-white/90 shadow-md shadow-[#666666] sm:w-[500px] md:w-[600px] lg:w-[700px]">
           <p className="text-xl font-semibold text-[#F8F9FA] sm:text-xl md:text-2xl">
-            {endpoints[0]?.content}
+            {endpoints[0]?.quote}
           </p>
           <p className="sm:text-md text-sm font-normal text-[#999999] md:text-lg">
             - {endpoints[0]?.author} -

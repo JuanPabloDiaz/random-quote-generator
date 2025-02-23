@@ -107,5 +107,6 @@ Resources list that I find helpful and would like to give credit to.
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)
 - [Vercel](https://vercel.com/)
+- [Breaking Bad Quotes API](https://breakingbadquotes.xyz)
 
 <p align="right">(<a href="#top">👆 Top 👆</a>)</p>
